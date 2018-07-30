@@ -10,6 +10,14 @@ public class RandomNumbers {
 	private int y = now.getSecond();;
 	
 	public RandomNumbers() {}
+	
+	//Test propose only
+	public RandomNumbers(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+
+
 
 	public int getX() {
 		return x;

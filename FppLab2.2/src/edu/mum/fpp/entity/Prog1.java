@@ -1,5 +1,7 @@
 package edu.mum.fpp.entity;
 
+import java.text.DecimalFormat;
+
 public class Prog1 {
 	
 	private RandomNumbers random = new RandomNumbers();
@@ -9,11 +11,16 @@ public class Prog1 {
 	
 	public Prog1() {}
 	
+	//For testing propose only
+	public Prog1(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
+	
+	
 	public RandomNumbers getRandom() {
 		return random;
 	}
-
-
 
 	public void setRandom(RandomNumbers random) {
 		this.random = random;
